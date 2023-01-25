@@ -1,0 +1,158 @@
+body {
+	margin: 0px;
+	font-family: Poppins, sans-serif;
+}
+
+.main {
+	position: relative;
+}
+.main img {
+	height: 95%;
+	max-width: 100%;
+}
+.main-text {
+	background: transparent;
+	top: 0;
+	position: absolute;
+	width: 35%;
+    height: 35%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+.main h1{
+	color: #fff;
+	font-size: clamp(10px, 6vw, 500px);
+	font: bold;
+	margin: 0;
+	font-weight: 200%;
+}
+.main-content {
+	color: #fff;
+	font-size: clamp(2.5px, 1.5vw, 150px);
+	font-family: Roboto, sans-serif;
+	margin-top: 5%;
+}
+.main button{
+	height: 15%;
+    margin-top: 2.5%;
+    width: auto;
+    height: auto;
+    padding: 2% 2.5%;
+    background: #fff;
+}
+.main button span {
+	font-weight: 200;
+	font-size: clamp(50%, 0.9vw, 100%);;
+	width: 50%;
+	height: 10%;
+	text-transform: uppercase;
+}
+
+.next-1 {
+	
+	max-width: 100%;
+}
+
+.img-col {
+	width: 85%;
+	height: 55%;
+}
+.man {
+	float: left;
+	margin-left: 10%;
+	flex-basis: 5%;
+	height: 95%;
+	max-width: 100%;
+}
+.txt-col {
+	width: auto;
+	height: 15%;
+} 
+
+.txt-col h3 {
+	position: relative;
+	width: 80%;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 5.94px;
+	text-transform: uppercase;
+	left: 5%;
+	padding: 10% 5% 0% 5%;
+}
+.txt-col h1 {
+	position: relative;
+	left: 5%;
+	line-height: 81.6px;
+	width: 80%;
+	font-size: 68px;
+}
+
+.txt-col p {
+	padding-left: clamp(5%, 7.5%, 10%);
+	position: relative;
+	padding-right: 5%;
+	font-size: 16px;
+	font-weight: 400;
+	width: 70%;
+	left: 5%;
+}
+.txt-col button {
+	position: relative;
+	left: 5%;
+	padding: 10px 25px;
+	margin: 15px;
+	color: white;
+	background-color: black;
+}
+
+.nav {
+	height: 75px;
+	width: auto;
+	background-color: black;
+}
+.nav h2{
+	color: white;
+	position: relative;
+	padding: 1%  1% 2%;
+	text-transform: uppercase;
+	font-size: 200%;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: absolute;
+}
+
+.img-prod1 {
+	margin-top: 15%;
+	padding: 10%;
+	background-color: black;
+	color: white;
+}
+
+.img-prod1 a{
+	position: relative;
+	margin-left: 75%;
+	font-size: 150%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+.img-prod1 h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 500%;
+}
+.img-prod1 h4 {
+	font-size: 150%;
+	margin: 0;
+
+
+}
+.img-prod1 p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 150%;
+}
+.img-prod1 #Contact {
+	margin-left: 0px;
+	font-size: 150%;
+}
